@@ -38,6 +38,3 @@ strategy:
     windows:
       imageName: "vs2017-win2016"
   maxParallel: 3
-
-pool:
-  vmImage: $(imageName)
